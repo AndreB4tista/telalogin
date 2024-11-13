@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Tela de Login</title>
+</head>
+<body>
+    
+    <div class="login-container">
+        <!-- Imagem logo sobre a div de login -->
+        <img src="logo.png" alt="Logo" class="logo">
+        </div>
+   
+    <div class="login-container">
+        <h2>Login</h2>
+        <form action="validacao.php" method="post">
+            <label for="username">Usuário:</label>
+            <input type="text" id="username" name="username" required>
+            
+            <label for="password">Senha:</label>
+            <input type="password" id="password" name="password" required>
+            
+            <button type="submit">Entrar</button>
+        </form>
+    </div>
+</body>
+</html>
